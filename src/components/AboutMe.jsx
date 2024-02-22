@@ -55,7 +55,7 @@ const AboutMe = () => {
           <img
             src={ProfileImage}
             alt="ProfileImage"
-            className="h-96 w-96 rounded-full"
+            className="h-80 w-80 lg:h-96 lg:w-96 rounded-full"
           />
           <h5 className="text-3xl text-gray-800 mt-4 font-medium">Francisco</h5>
         </div>
