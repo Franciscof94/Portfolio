@@ -90,7 +90,7 @@ const AboutMe = () => {
             </h3>
           </div>
 
-          <div className="grid grid-cols-4 lg:grid-cols-5 mt-8 max-w-[530px] justify-items-center">
+          <div className="grid grid-cols-4 md:grid-cols-6 mt-8 max-w-[530px] justify-items-center">
             {techStack.map((tech) => (
               <TechContainer
                 key={tech.title}
