@@ -68,7 +68,7 @@ const AboutMe = () => {
               Desarrollador{" "}
               <span className="text-blue-500 font-medium">Front-end</span> con
               mas de dos años y medio de experiencia trabajando con React JS,
-              Next js, Typescript, Tailwind, Nest js y demas tecnologias. <br />
+              Next js, Typescript, Tailwind, Nest js y demás tecnologias. <br />
               <br />
               Soy apasionado por explorar nuevas herramientas y frameworks que
               mejoren la eficiencia y la calidad de mis proyectos. Mi enfoque en
