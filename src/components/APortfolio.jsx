@@ -7,7 +7,7 @@ export const APortfolio = () => {
       <h1 className="text-3xl md:text-5xl font-bold text-center text-gray-800 mb-4">
         Portafolio
       </h1>
-      <h3 className="text-xl md:text-3xl font-bold text-center text-gray-800 mb-16">
+      <h3 className="text-xl md:text-3xl font-bold text-center text-gray-800 mb-4 lg:mb-16">
         Mis <span className="text-blue-500">proyectos</span>
       </h3>
       <div className="flex flex-wrap justify-center gap-8">

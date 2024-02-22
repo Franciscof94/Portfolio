@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 
 import {
   Bootstrap,
+  Javascript,
   MaterialUi,
   NestJS,
   NextJs,
@@ -43,6 +44,7 @@ const AboutMe = () => {
     { title: "Bootstrap", image: Bootstrap },
     { title: "MaterialUi", image: MaterialUi },
     { title: "Tailwind", image: Tailwind },
+    { title: "Javascript", image: Javascript },
   ];
 
   return (
@@ -88,7 +90,7 @@ const AboutMe = () => {
             </h3>
           </div>
 
-          <div className="grid grid-cols-5 mt-8 max-w-[530px] justify-items-center">
+          <div className="grid grid-cols-4 lg:grid-cols-5 mt-8 max-w-[530px] justify-items-center">
             {techStack.map((tech) => (
               <TechContainer
                 key={tech.title}
